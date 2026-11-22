@@ -5,10 +5,10 @@ Codename: ios12
 Architectures: iphoneos-arm
 Components: main
 Description: Lock screen clock customization and Telegram for iOS 12
-Date: Sun, 22 Nov 2026 21:28:23 GMT
+Date: Sun, 22 Nov 2026 21:34:43 GMT
 MD5Sum:
- beede93bcf4498342da90ebd435636b3 2970 Packages
- bc0438c075e307fa921d9242e951eb89 1192 Packages.gz
+ 97b27fd13651d01350899fa13582b5a9 3050 Packages
+ d2ffd96769e592e6cd6074ab749bd2f1 1239 Packages.gz
 SHA256:
- 206ceaa30a88c50877be69e9d16f6baa55be97f7a7152935f9d3b9f8fecbbd1d 2970 Packages
- 05c395ca94eb7ef26becd36dbb624078e3148cc476617087055a47936f8338d7 1192 Packages.gz
+ ae5d8530a04779aa7b6628a2c4416fe3c4422f1173553c12ed19d7441ec63422 3050 Packages
+ 131be95ab8244272f2f857a406da7f7bc9712144dbda4c375775d35c6f7397ca 1239 Packages.gz

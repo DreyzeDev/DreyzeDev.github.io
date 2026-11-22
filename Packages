@@ -32,19 +32,19 @@ SHA256: 67aea2f4aca9313d9ed91d42b861da699d6ea5afdd3538b6aec64f757900c310
 
 Package: com.opencode.motionwalls
 Name: Motion Walls
-Description: Live wallpapers for iOS 12: 24 built-in animated wallpapers (aurora, particles, liquid, waves, space) and any video or Live Photo from your gallery, on the lock screen, home screen or both.
+Description: Live wallpapers for iOS 12: built-in catalog of wallpaper sites (anime, cars, games) with one-tap download, 24 built-in animated wallpapers (aurora, particles, liquid, waves, space) and any video or Live Photo from your gallery, on the lock screen, home screen or both.
 Maintainer: opencode
 Author: opencode
 Section: Themes
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
 Depiction: https://dreyzedev.github.io/depictions/motionwalls.html
 Architecture: iphoneos-arm
-Version: 1.0.0
-Installed-Size: 520
-Filename: debs/com.opencode.motionwalls_1.0.0_iphoneos-arm.deb
-Size: 169358
-MD5sum: d78a268fb5bacb6e2d7bbbe5153c8129
-SHA256: d600524eded62f2f5af836daa9bb7bccb44f8e70ee881cded198e612cac103de
+Version: 1.1.0
+Installed-Size: 572
+Filename: debs/com.opencode.motionwalls_1.1.0_iphoneos-arm.deb
+Size: 181342
+MD5sum: cf1dd353820a473662a388215310ead0
+SHA256: f0f3e3ae888799c9f459b66a3b5a4efe91453e37d8348b729b21fca37207eed5
 
 Package: com.opencode.telegram
 Name: Telegram
