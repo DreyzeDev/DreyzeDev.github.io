@@ -32,7 +32,7 @@ SHA256: 65b8275d1172e4653e50eb5d1285118330bf2967bfa4bb9dad2fb30373a070aa
 
 Package: com.opencode.telegram
 Name: Telegram
-Version: 10.0.3-2
+Version: 10.0.3-3
 Architecture: iphoneos-arm
 Description: Official Telegram 10.0.3 for iOS 12 with the update banner removed.
 Maintainer: opencode
@@ -40,11 +40,11 @@ Author: Telegram FZ-LLC
 Section: Social
 Priority: optional
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Installed-Size: 140596
-Filename: debs/com.opencode.telegram_10.0.3-2_iphoneos-arm.deb
-Size: 61359320
-MD5sum: 4aa9e100bbf43f723c779a3e03612e58
-SHA256: 857a3145cace2d8b115e3f63750bc748a732e70f07ec35baa8cee57ef2bf4feb
+Installed-Size: 140592
+Filename: debs/com.opencode.telegram_10.0.3-3_iphoneos-arm.deb
+Size: 61361550
+MD5sum: 2d2db5ffc4f2a21e06cb0b3f77efcc4b
+SHA256: 9142a0f460a6785e8eaa76a94b109b1cf82cdd4a4243fc8087008359adef61e4
 
 Package: com.opencode.telegram
 Name: Telegram
