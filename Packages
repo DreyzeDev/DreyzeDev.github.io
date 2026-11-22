@@ -1,0 +1,31 @@
+Package: com.opencode.ios2lockclock
+Name: iOS 2 Lock Clock
+Description: Retro iOS 2 style analog clock for the lock screen with customization.
+Maintainer: opencode
+Author: opencode
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), firmware (>= 12.0)
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 136
+Filename: debs/com.opencode.ios2lockclock_1.0.0_iphoneos-arm.deb
+Size: 14332
+MD5sum: 99a3fe896a25f05e8566c3d0ad4058a8
+SHA256: 8af5f840e7966bebb2950ae4e04480d59f7117a5dceaf018a6acf0fe10c3747e
+
+Package: com.opencode.telegram
+Name: Telegram
+Version: 10.0.3
+Architecture: iphoneos-arm
+Description: Official Telegram Messenger 10.0.3 build (works on iOS 12, no Apple ID needed).
+Maintainer: opencode
+Author: Telegram FZ-LLC
+Section: Social
+Priority: optional
+Depends: firmware (>= 11.0)
+Installed-Size: 140596
+Filename: debs/com.opencode.telegram_10.0.3_iphoneos-arm.deb
+Size: 61353172
+MD5sum: c8eaaf862a3a4f3dd759b91c8c35c870
+SHA256: 98a813b654b9dea8f3d83b55cffe252dc96e039a1e6f3efa5300b51ef05c45b5
+
