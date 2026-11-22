@@ -13,6 +13,23 @@ Size: 14332
 MD5sum: 99a3fe896a25f05e8566c3d0ad4058a8
 SHA256: 8af5f840e7966bebb2950ae4e04480d59f7117a5dceaf018a6acf0fe10c3747e
 
+Package: com.opencode.lockclockstudio
+Name: Lock Clock Studio
+Description: Customize the stock lock screen clock: fonts, colors, size, position and iOS 26 style glass. Includes a live preview app.
+Maintainer: opencode
+Author: opencode
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Conflicts: com.opencode.ios2lockclock
+Replaces: com.opencode.ios2lockclock
+Architecture: iphoneos-arm
+Version: 2.0.0
+Installed-Size: 276
+Filename: debs/com.opencode.lockclockstudio_2.0.0_iphoneos-arm.deb
+Size: 78902
+MD5sum: c17eb01024e0913ac351ccf549ef7c4d
+SHA256: 65b8275d1172e4653e50eb5d1285118330bf2967bfa4bb9dad2fb30373a070aa
+
 Package: com.opencode.telegram
 Name: Telegram
 Version: 10.0.3
