@@ -32,19 +32,19 @@ SHA256: 67aea2f4aca9313d9ed91d42b861da699d6ea5afdd3538b6aec64f757900c310
 
 Package: com.opencode.motionwalls
 Name: Motion Walls
-Description: Live wallpapers for iOS 12: .tendies (Nugget / PocketPoster) animated wallpapers with lock/unlock states and a built-in Nugget collection, catalog of wallpaper sites (anime, cars, games) with one-tap download, 24 built-in animated wallpapers (aurora, particles, liquid, waves, space) and any video or Live Photo from your gallery, on the lock screen, home screen or both.
+Description: Live wallpapers for iOS 12: .tendies (Nugget / PocketPoster) animated wallpapers with lock/unlock states, 10 bundled .tendies starter wallpapers and a built-in Nugget collection, catalog of wallpaper sites (anime, cars, games) with one-tap download, 24 built-in animated wallpapers (aurora, particles, liquid, waves, space) and any video or Live Photo from your gallery, on the lock screen, home screen or both.
 Maintainer: opencode
 Author: opencode
 Section: Themes
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
 Depiction: https://dreyzedev.github.io/depictions/motionwalls.html
 Architecture: iphoneos-arm
-Version: 1.2.0
-Installed-Size: 628
-Filename: debs/com.opencode.motionwalls_1.2.0_iphoneos-arm.deb
-Size: 199932
-MD5sum: 7d5edaff0d5191b5defd0070b33bff6a
-SHA256: 7fe886f9dedab78cbbe72404a557366cf76ae545b705ee124471f03bb9c02f8a
+Version: 1.3.0
+Installed-Size: 11452
+Filename: debs/com.opencode.motionwalls_1.3.0_iphoneos-arm.deb
+Size: 8405716
+MD5sum: 61ca8c28ec79a91c82de3df9c9a8bb19
+SHA256: da2bd8a7f21aa3007cb90f4beed67afe07eccb7759105d60f0c57e48a31b2fe1
 
 Package: com.opencode.telegram
 Name: Telegram
