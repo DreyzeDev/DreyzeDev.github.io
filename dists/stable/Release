@@ -1,0 +1,14 @@
+Origin: opencode
+Label: opencode local repo
+Suite: stable
+Codename: ios12
+Architectures: iphoneos-arm
+Components: main
+Description: iOS 2 Lock Clock and Telegram for iOS 12
+Date: Sun, 22 Nov 2026 17:59:37 GMT
+MD5Sum:
+ 8c12617b7eb66950f8d7a6e49786cb5b 1043 main/binary-iphoneos-arm/Packages
+ 5dfbac6457e56fa27413fe72a2efec81 591 main/binary-iphoneos-arm/Packages.gz
+SHA256:
+ 88409bbbc38e97eae38650a0b0cf612f6e5afc39c84754217cbcc7081420b646 1043 main/binary-iphoneos-arm/Packages
+ d6d22a29ed774463558964daa53f2c6682ccf5cccc19b5e054749d29c8ca361f 591 main/binary-iphoneos-arm/Packages.gz
