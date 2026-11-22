@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Motion Walls</title>
+<meta name="description" content="Живые обои для iOS 12: 24 встроенных анимированных обоев и любые видео или Live Photo из галереи.">
+<style>
+:root { --bg: #07070b; --card: rgba(255,255,255,0.055); --border: rgba(255,255,255,0.09); --text: #f4f4f8; --muted: #9a9aa6; --accent: #5cebdb; --radius: 20px; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 1.5; overflow-x: hidden; }
+.hero { position: relative; overflow: hidden; padding: 56px 16px 40px; text-align: center; }
+.hero::before { content: ""; position: absolute; top: -40%; left: -40%; width: 180%; height: 180%; z-index: -1;
+  background: linear-gradient(120deg, #2e1f7a, #00c9a7, #7b2ff7, #00e0ff, #2e1f7a); background-size: 300% 300%;
+  -webkit-animation: flow 14s ease-in-out infinite alternate; animation: flow 14s ease-in-out infinite alternate; opacity: .55; filter: blur(30px); }
+@-webkit-keyframes flow { from { background-position: 0% 50%; } to { background-position: 100% 50%; } }
+@keyframes flow { from { background-position: 0% 50%; } to { background-position: 100% 50%; } }
+@media (prefers-reduced-motion: reduce) { .hero::before { -webkit-animation: none; animation: none; } }
+.hero img { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 16px 40px rgba(0,0,0,.45); }
+.hero h1 { font-size: 38px; margin: 16px 0 6px; letter-spacing: -0.02em; }
+.hero p { margin: 0 auto; max-width: 460px; color: #d6d6e0; font-size: 17px; }
+.meta { margin-top: 14px; font: 600 13px ui-monospace, Menlo, monospace; color: #d6d6e0; }
+main { max-width: 680px; margin: 0 auto; padding: 8px 16px 48px; }
+h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin: 36px 4px 12px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; }
+.features { list-style: none; margin: 0; padding: 0; }
+.features li { padding: 10px 0 10px 36px; position: relative; border-bottom: 1px solid var(--border); color: #e4e4ec; }
+.features li:last-child { border-bottom: 0; }
+.features li::before { content: attr(data-icon); position: absolute; left: 0; top: 9px; font-size: 20px; }
+h3 { font-size: 17px; margin: 22px 4px 10px; }
+h3 span { color: var(--muted); font-weight: 500; margin-left: 6px; }
+.presets { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); grid-gap: 10px; }
+.presets li { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 8px 8px 10px; font-size: 14px; color: #e4e4ec; }
+.swatch { display: block; height: 96px; border-radius: 11px; margin-bottom: 8px; }
+.steps { margin: 0; padding-left: 22px; color: #e4e4ec; }
+.steps li { margin: 6px 0; }
+.note { color: var(--muted); font-size: 14px; margin: 12px 4px 0; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+td { padding: 9px 0; border-bottom: 1px solid var(--border); }
+td:first-child { color: var(--muted); width: 42%; }
+tr:last-child td { border-bottom: 0; }
+footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 36px; }
+footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <img src="assets/motionwalls.png" alt="Иконка Motion Walls">
+  <h1>Motion Walls</h1>
+  <p>Живые обои для iOS 12. Анимация на экране блокировки и «Домой» без лагов и лишнего расхода батареи.</p>
+  <div class="meta">1.0.0 · iOS 12 · arm64</div>
+</section>
+<main>
+  <h2>Возможности</h2>
+  <div class="card">
+    <ul class="features">
+      <li data-icon="✨">24 встроенных живых обоев: сияние, частицы, жидкость, волны, космос. Рисуются в реальном времени, файлов почти нет.</li>
+      <li data-icon="🎞">Любое видео или Live Photo из галереи становится живыми обоями. Звук убирается, видео сжимается и зацикливается.</li>
+      <li data-icon="🔒">Отдельно на экран блокировки, на «Домой» или на оба экрана.</li>
+      <li data-icon="👁">Полноэкранный предпросмотр с часами, как на настоящем экране блокировки.</li>
+      <li data-icon="🔋">Обои замирают при выключенном экране, когда открыто приложение и в режиме энергосбережения.</li>
+      <li data-icon="🎚">Затемнение для читаемости и скорость анимации.</li>
+    </ul>
+  </div>
+
+  <h2>Коллекция</h2>
+    <h3>Сияние <span>7</span></h3>
+    <ul class="presets">
+      <li><span class="swatch" style="background: linear-gradient(160deg, #05060F, #0B0F2A, #00C9A7, #2E1F7A, #7B2FF7);"></span>Северное сияние</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #1A0B2E, #3D1A4B, #FF7E5F, #FEB47B, #FF4E8A);"></span>Закат</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #0F2027, #203A43, #0F2027, #2C5364, #00B4DB);"></span>Глубина</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #0D0221, #190A3D, #FF00CC, #3333FF, #00FFD5);"></span>Неон</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #FFE5EC, #FFC2D1, #FFDDE1, #EE9CA7, #FBC2EB);"></span>Персик</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #0B3D2E, #0BA360, #43E97B, #38F9D7, #0BA360);"></span>Мята</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #0B0C2A, #1F1C4F, #0B0C2A, #3A1C71, #5F2C82);"></span>Полночь</li>
+    </ul>
+    <h3>Частицы <span>8</span></h3>
+    <ul class="presets">
+      <li><span class="swatch" style="background: linear-gradient(160deg, #1B2735, #090A0F, #FFFFFF);"></span>Снегопад</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #0B1D13, #000000, #E8FF7A);"></span>Светлячки</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #000814, #001D3D, #9BD1FF);"></span>Звёздная ночь</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #1A1A2E, #16213E, #FF8FAB, #FFD166, #4CC9F0);"></span>Боке</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #232526, #414345, #FFFFFF);"></span>Дождь</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #2B1B3D, #6B2D5C, #FFB7C5, #FFC8DD, #FFAFCC);"></span>Сакура</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #1A0500, #000000, #FF6B00, #FF9E00, #FF3D00);"></span>Угольки</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #003973, #001F3F, #FFFFFF);"></span>Пузырьки</li>
+    </ul>
+    <h3>Жидкость <span>5</span></h3>
+    <ul class="presets">
+      <li><span class="swatch" style="background: linear-gradient(160deg, #120102, #2A0A0A, #FF512F, #F09819, #DD2476);"></span>Лава</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #F6F7FB, #E9E4F0, #A1C4FD, #C2E9FB, #FBC2EB);"></span>Пастель</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #05010F, #12002B, #7F00FF, #E100FF, #00DBDE);"></span>Космический сироп</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #02120E, #04291F, #11998E, #38EF7D, #0B8793);"></span>Лес</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #000000, #0A0A0A, #FFFFFF, #5F6368, #9AA0A6);"></span>Графит</li>
+    </ul>
+    <h3>Волны <span>2</span></h3>
+    <ul class="presets">
+      <li><span class="swatch" style="background: linear-gradient(160deg, #001B2E, #003554, #00C6FB, #005BEA, #4FACFE);"></span>Прилив</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #2B1B3D, #5C2A57, #FF9A8B, #FF6A88, #FF99AC);"></span>Волны заката</li>
+    </ul>
+    <h3>Космос <span>2</span></h3>
+    <ul class="presets">
+      <li><span class="swatch" style="background: linear-gradient(160deg, #000000, #0A0420, #8E2DE2, #4A00E0, #00D2FF);"></span>Орбиты</li>
+      <li><span class="swatch" style="background: linear-gradient(160deg, #020617, #0F172A, #00F5A0, #00D9F5);"></span>Пульс</li>
+    </ul>
+
+  <h2>Как пользоваться</h2>
+  <div class="card">
+    <ol class="steps">
+      <li>Открой приложение «Живые обои» на домашнем экране.</li>
+      <li>Выбери обои из коллекции или нажми «Своё видео или Live Photo».</li>
+      <li>Нажми «Установить» и выбери экран блокировки, «Домой» или оба.</li>
+    </ol>
+    <p class="note">Затемнение, скорость и паузу в энергосбережении можно поменять в настройках приложения. Живые обои видны поверх твоих обычных обоев, а обычные при этом не меняются.</p>
+  </div>
+
+  <h2>Совместимость</h2>
+  <div class="card">
+    <table>
+      <tr><td>iOS</td><td>12.0 – 12.5.x</td></tr>
+      <tr><td>Устройства</td><td>iPhone с arm64 и джейлбрейком</td></tr>
+      <tr><td>Зависимости</td><td>MobileSubstrate / Substitute</td></tr>
+      <tr><td>Видео</td><td>MOV, MP4, HEVC и Live Photo, до 60 секунд</td></tr>
+    </table>
+  </div>
+
+  <h2>Что нового</h2>
+  <div class="card">
+    <strong>1.0.0</strong>
+    <p class="note" style="margin: 6px 0 0;">Первый выпуск: 24 живых обоев, импорт видео и Live Photo, отдельные обои для экрана блокировки и «Домой», настройки затемнения и скорости.</p>
+  </div>
+
+  <footer><a href="../">← Все пакеты opencode repo</a></footer>
+</main>
+</body>
+</html>
